@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#systemUser_userType`, but never found it.",
+      "children" : [ {
+        "name" : "Orange HRM Login",
+        "uid" : "f93997376fe9668f",
+        "parentUid" : "ddafe977c56c1ec4dbfd59e18d154520",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644937462827,
+          "stop" : 1644937492665,
+          "duration" : 29838
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddafe977c56c1ec4dbfd59e18d154520"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,798 @@
+{
+  "uid" : "f93997376fe9668f",
+  "name" : "Orange HRM Login",
+  "fullName" : "Orange HRM Login",
+  "historyId" : "45d70eb8c5dc3bbcf459c9aa9337a230",
+  "time" : {
+    "start" : 1644937462827,
+    "stop" : 1644937492665,
+    "duration" : 29838
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `#systemUser_userType`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#systemUser_userType`, but never found it.\n    at DashboardPageAction.addUserRole (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\Login.feature:181:17)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\Login.feature:69:13)\n    at Context.resolveAndRunStepDefinition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\Login.feature:10740:29)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\Login.feature:10061:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `#systemUser_userType`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#systemUser_userType`, but never found it.\n    at DashboardPageAction.addUserRole (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\Login.feature:181:17)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\Login.feature:69:13)\n    at Context.resolveAndRunStepDefinition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\Login.feature:10740:29)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\Login.feature:10061:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1644937462854,
+        "stop" : 1644937462881,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"Login.json\")",
+        "time" : {
+          "start" : 1644937462861,
+          "stop" : 1644937462878,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1644937462881,
+        "stop" : 1644937462929,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"Login.json\")",
+        "time" : {
+          "start" : 1644937462883,
+          "stop" : 1644937462884,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1644937462936,
+        "stop" : 1644937462939,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given navigate to Login page",
+      "time" : {
+        "start" : 1644937463076,
+        "stop" : 1644937467415,
+        "duration" : 4339
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://opensource-demo.orangehrmlive.com/",
+        "time" : {
+          "start" : 1644937463077,
+          "stop" : 1644937467403,
+          "duration" : 4326
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I type in username and password",
+      "time" : {
+        "start" : 1644937467415,
+        "stop" : 1644937468652,
+        "duration" : 1237
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #txtUsername",
+        "time" : {
+          "start" : 1644937467459,
+          "stop" : 1644937467572,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type Admin",
+        "time" : {
+          "start" : 1644937467572,
+          "stop" : 1644937468141,
+          "duration" : 569
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #txtPassword",
+        "time" : {
+          "start" : 1644937468141,
+          "stop" : 1644937468166,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type admin123",
+        "time" : {
+          "start" : 1644937468166,
+          "stop" : 1644937468595,
+          "duration" : 429
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I click on Sign In button",
+      "time" : {
+        "start" : 1644937468652,
+        "stop" : 1644937475080,
+        "duration" : 6428
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get input[type=\"submit\"]",
+        "time" : {
+          "start" : 1644937468655,
+          "stop" : 1644937468689,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "first",
+        "time" : {
+          "start" : 1644937468689,
+          "stop" : 1644937468769,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644937468770,
+          "stop" : 1644937469111,
+          "duration" : 341
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "form sub --submitting form--",
+        "time" : {
+          "start" : 1644937469111,
+          "stop" : 1644937469111,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1644937469111,
+          "stop" : 1644937469111,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And user should be logged in",
+      "time" : {
+        "start" : 1644937475080,
+        "stop" : 1644937475123,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "url",
+        "time" : {
+          "start" : 1644937475082,
+          "stop" : 1644937475108,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assert expected **https://opensource-demo.orangehrmlive.com/index.php/dashboard** to equal **https://opensource-demo.orangehrmlive.com/index.php/dashboard**",
+        "time" : {
+          "start" : 1644937475107,
+          "stop" : 1644937475108,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+        }, {
+          "name" : "expected",
+          "value" : "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "log welcome user",
+        "time" : {
+          "start" : 1644937475108,
+          "stop" : 1644937475116,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I click on Admin tab",
+      "time" : {
+        "start" : 1644937475123,
+        "stop" : 1644937486557,
+        "duration" : 11434
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wait 3000",
+        "time" : {
+          "start" : 1644937475126,
+          "stop" : 1644937478143,
+          "duration" : 3017
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /webres_620b9b5f823801.60510175/orangehrmDashboardPlugin/js/flot/jquery.flot.min.js",
+        "time" : {
+          "start" : 1644937478142,
+          "stop" : 1644937478142,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /webres_620b9b5f823801.60510175/orangehrmDashboardPlugin/js/flot/jquery.flot.pie.min.js",
+        "time" : {
+          "start" : 1644937478142,
+          "stop" : 1644937478142,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /webres_620b9b5f823801.60510175/orangehrmDashboardPlugin/js/flot/JUMFlot.min.js",
+        "time" : {
+          "start" : 1644937478143,
+          "stop" : 1644937478143,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /webres_620b9b5f823801.60510175/orangehrmDashboardPlugin/js/graph-visualizer/pie-chart.js",
+        "time" : {
+          "start" : 1644937478143,
+          "stop" : 1644937478143,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assert expected **<b>** to have text **Admin**",
+        "time" : {
+          "start" : 1644937478143,
+          "stop" : 1644937478170,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //*[@id=\"menu_admin_viewAdminModule\"]/b",
+        "time" : {
+          "start" : 1644937478169,
+          "stop" : 1644937478170,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "trigger mousedown",
+        "time" : {
+          "start" : 1644937478170,
+          "stop" : 1644937478409,
+          "duration" : 239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644937478409,
+          "stop" : 1644937478666,
+          "duration" : 257
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1644937478665,
+          "stop" : 1644937478665,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "log <b>",
+        "time" : {
+          "start" : 1644937481459,
+          "stop" : 1644937481465,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "wait 5000",
+        "time" : {
+          "start" : 1644937481466,
+          "stop" : 1644937486474,
+          "duration" : 5008
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 12,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I fill the username & employee name",
+      "time" : {
+        "start" : 1644937486557,
+        "stop" : 1644937488135,
+        "duration" : 1578
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Details (\"Garry.White\"; \"Garry White\")",
+        "time" : {
+          "start" : 1644937486558,
+          "stop" : 1644937492662,
+          "duration" : 6104
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "get input[name=\"searchSystemUser[userName]\"]",
+          "time" : {
+            "start" : 1644937486559,
+            "stop" : 1644937486627,
+            "duration" : 68
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "type Garry.White",
+          "time" : {
+            "start" : 1644937486627,
+            "stop" : 1644937487311,
+            "duration" : 684
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "get #searchSystemUser_employeeName_empName",
+          "time" : {
+            "start" : 1644937487311,
+            "stop" : 1644937487372,
+            "duration" : 61
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "type Garry White",
+          "time" : {
+            "start" : 1644937487372,
+            "stop" : 1644937488129,
+            "duration" : 757
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I selected User Role",
+      "time" : {
+        "start" : 1644937488135,
+        "stop" : 1644937492663,
+        "duration" : 4528
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get #systemUser_userType",
+        "time" : {
+          "start" : 1644937488137,
+          "stop" : 1644937492662,
+          "duration" : 4525
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers",
+        "time" : {
+          "start" : 1644937492662,
+          "stop" : 1644937492662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1644937492667,
+        "stop" : 1644937492670,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 /index.php/dashboard/employeeDistribution",
+      "time" : {
+        "start" : 1644937492844,
+        "stop" : 1644937492844,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 /index.php/dashboard/pendingLeaveRequests",
+      "time" : {
+        "start" : 1644937492844,
+        "stop" : 1644937492844,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "new url https://opensource-demo.orangehrmlive.com/index.php/dashboard",
+      "time" : {
+        "start" : 1644937492844,
+        "stop" : 1644937492844,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c4d3c973bbe25bc1",
+      "name" : "Login.feature:2022-02-15T15:04:52.240Z",
+      "source" : "c4d3c973bbe25bc1.png",
+      "type" : "image/png",
+      "size" : 124425
+    }, {
+      "uid" : "e55085a17a3b8b97",
+      "name" : "video recording",
+      "source" : "e55085a17a3b8b97.mp4",
+      "type" : "video/mp4",
+      "size" : 1458258
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 48,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orange HRM User"
+  }, {
+    "name" : "feature",
+    "value" : "Orange HRM User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f93997376fe9668f.json",
+  "parameterValues" : [ ]
+}

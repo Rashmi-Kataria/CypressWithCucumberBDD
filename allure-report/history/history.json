@@ -1,0 +1,60 @@
+{
+  "a9eb4c5b13465972e3332268b94353f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ebdb3cb13e37afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644937358231,
+        "stop" : 1644937384044,
+        "duration" : 25813
+      }
+    } ]
+  },
+  "45d70eb8c5dc3bbcf459c9aa9337a230" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f93997376fe9668f",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `#systemUser_userType`, but never found it.",
+      "time" : {
+        "start" : 1644937462827,
+        "stop" : 1644937492665,
+        "duration" : 29838
+      }
+    } ]
+  },
+  "2233f47db9473df2dda5623009e301f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb63ec8a1e6afd91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644937384297,
+        "stop" : 1644937388969,
+        "duration" : 4672
+      }
+    } ]
+  }
+}

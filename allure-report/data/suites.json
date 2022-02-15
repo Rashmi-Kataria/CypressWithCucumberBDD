@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Testing on Dashboard Orange HRM",
+    "children" : [ {
+      "name" : "Dashboard user",
+      "uid" : "4ebdb3cb13e37afe",
+      "parentUid" : "aa3defdc606e234ff4e1a6a58e03bbbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644937358231,
+        "stop" : 1644937384044,
+        "duration" : 25813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "add user",
+      "uid" : "cb63ec8a1e6afd91",
+      "parentUid" : "aa3defdc606e234ff4e1a6a58e03bbbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644937384297,
+        "stop" : 1644937388969,
+        "duration" : 4672
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "aa3defdc606e234ff4e1a6a58e03bbbe"
+  }, {
+    "name" : "Orange HRM User",
+    "children" : [ {
+      "name" : "Orange HRM Login",
+      "uid" : "f93997376fe9668f",
+      "parentUid" : "f155e67c3474fd4d2ba06a914c259b00",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644937462827,
+        "stop" : 1644937492665,
+        "duration" : 29838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f155e67c3474fd4d2ba06a914c259b00"
+  } ]
+}

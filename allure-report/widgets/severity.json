@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f93997376fe9668f",
+  "name" : "Orange HRM Login",
+  "time" : {
+    "start" : 1644937462827,
+    "stop" : 1644937492665,
+    "duration" : 29838
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb63ec8a1e6afd91",
+  "name" : "add user",
+  "time" : {
+    "start" : 1644937384297,
+    "stop" : 1644937388969,
+    "duration" : 4672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ebdb3cb13e37afe",
+  "name" : "Dashboard user",
+  "time" : {
+    "start" : 1644937358231,
+    "stop" : 1644937384044,
+    "duration" : 25813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
